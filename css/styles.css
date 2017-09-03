@@ -222,7 +222,7 @@ Hero
 Intro
 ========================================================================== */
 .intro { background: #f3f5f8; }
-.intro p { margin: 50px 0 0; }
+.intro p { margin: 20px, 0, 0; }
 h1.arrow { font-size: 30px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: normal; }
 /* ==========================================================================
 Features
@@ -239,7 +239,7 @@ iPhone Section
 /* ==========================================================================
 Swag
 ========================================================================== */
-.swag { background: url('../img/plant-minnie1-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
+.swag { background: url('../img/plants-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
 .swag h1 { color: #d8f3ef; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
 .down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(61, 201, 179, 0.8); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
@@ -309,7 +309,7 @@ ul.legals li { display: inline-block; }
 ul.legals li::after { content: " |"; }
 ul.legals li:last-child::after { content: ""; }
 .legals { text-align: left; }
-.credit { text-align: right; }
+.credit { text-align: right;}
 /* ==========================================================================
 FlexSlider Custom CSS
 ========================================================================== */
@@ -322,4 +322,6 @@ Waypoints
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
+.delay-15s { animation-delay: 1.5s; -webkit-animation-delay: 1.5s; }
+.delay-2s { animation-delay: 2s; -webkit-animation-delay: 2s; }
 .wp3 { background: url('../img/minnie-bg.jpg') no-repeat center center; background-position: 60px 60px; height: 100%; }
